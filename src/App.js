@@ -54,7 +54,7 @@ function App() {
           <button onClick={() => updateCalc("*")}>*</button>
           <button onClick={() => updateCalc("+")}>+</button>
           <button onClick={() => updateCalc("-")}>-</button>
-          <button onClick={deletLast}>Del</button>
+          <button onClick={deletLast}>Del.</button>
         </div>
         <div className="digits">
           {createDigits()}
